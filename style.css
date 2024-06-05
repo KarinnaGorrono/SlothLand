@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+header {
+    background: #79AD8D;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sloth-facts {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.sloth-image {
+    flex: 1;
+    text-align: center;
+}
+
+.sloth-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 8px solid #79AD8D;
+}
+
+footer {
+    background: #79AD8D;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
